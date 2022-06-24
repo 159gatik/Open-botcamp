@@ -14,4 +14,3 @@ let libroFavorito = {
 }
 
 const lista = [nombre, edad, desarrollador, fechaNacimiento, libroFavorito];
-

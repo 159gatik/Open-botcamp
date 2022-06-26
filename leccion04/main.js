@@ -23,6 +23,6 @@ let ultimaLetra = apellido.substring("4");
 let cadena = estudiante.replace(/ /g, "");
 console.log(cadena);
 
-//Variable bolleana que verifica el contenido
+//Variable booleana que verifica el contenido
 let palabra = estudiante.includes(nombre);
 console.log(palabra);

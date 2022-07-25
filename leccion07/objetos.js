@@ -32,12 +32,12 @@ const amigo2 =
 
 const lista = [
     { ...datos },
-    { ...amigo2 },
-    { ...amigo1 }
+    { ...amigo1 },
+    { ...amigo2 }
 ]
 console.log(lista);
 // - Una nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
 
-lista.sort((a, b) => a.edad - b.edad)
+lista.sort((a, b) => b.edad - a.edad)
 
 console.log(lista);

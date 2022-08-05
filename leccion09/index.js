@@ -9,12 +9,12 @@ const logger = winston.createLogger({
     ],
 });
 
-function showError() {
+function gestionarError() {
     throw new Error("Sufrimos un error");
 }
 
 try {
-    showError();
+    gestionarError();
 } catch (e) {
     logger.error("ERROR inesperado");
 }

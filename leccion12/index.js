@@ -23,3 +23,10 @@ function pepe(num) {
 }
 
 console.log(pepe(6))
+
+
+let x = "Hola"
+
+let b = x.length
+
+console.log(b);

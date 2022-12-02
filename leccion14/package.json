@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "leccion14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
